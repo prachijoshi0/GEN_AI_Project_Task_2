@@ -1,0 +1,107 @@
+Functionality
+
+This chatbot is designed to provide financial information for specific companies and fiscal years based on predefined queries. The main functionalities include:
+
+Query Handling: The chatbot can respond to specific financial queries related to total revenue, net income, total assets, total liabilities, cash flow from operating activities, and various growth rates (revenue, net income, assets, liabilities, cash flow).
+Company and Fiscal Year Selection: It allows the user to select a company (Microsoft, Tesla, or Apple) and a fiscal year (2021, 2022, or 2023) to retrieve relevant financial data.
+Data Retrieval: It fetches the requested financial data from predefined data structures (final_report and summary_report) based on the user's input.
+Error Handling: It includes basic error handling for cases where data might be missing or invalid inputs are provide
+
+
+Example Queries :-
+
+
+----------------------------------------------------------------------------
+
+******************************  Hello! Welcome to AI Driven Financial Chatbot!!! *************************************
+
+******************************  I can help you with your financial queries  ****************************************
+Please select the company name from below: -
+
+1.Microsoft 
+2.Tesla 
+3.Apple
+
+The data for the fiscal year 2023, 2022, and 2021 is currently available
+
+Please enter your query : 
+The Year By Year Average Revenue Growth Rate(%) from 2021 to 2023 for Apple is 1.6644(%)
+----------------------------------------------------------------------------
+
+******************************  Hello! Welcome to AI Driven Financial Chatbot!!! *************************************
+
+******************************  I can help you with your financial queries  ****************************************
+Please select the company name from below: -
+
+1.Microsoft 
+2.Tesla 
+3.Apple
+
+The data for the fiscal year 2023, 2022, and 2021 is currently available
+
+Please enter your query : 
+The Year By Year Net Income Revenue Growth Rate(%) from 2021 to 2023 for Tesla is -101.3505(%)
+----------------------------------------------------------------------------
+
+******************************  Hello! Welcome to AI Driven Financial Chatbot!!! *************************************
+
+******************************  I can help you with your financial queries  ****************************************
+Please select the company name from below: -
+
+1.Microsoft 
+2.Tesla 
+3.Apple
+
+The data for the fiscal year 2023, 2022, and 2021 is currently available
+
+Please enter your query : 
+The Year By Year Average Assets Growth Rate(%) from 2021 to 2023 for Apple is 0.1502(%)
+----------------------------------------------------------------------------
+
+******************************  Hello! Welcome to AI Driven Financial Chatbot!!! *************************************
+
+******************************  I can help you with your financial queries  ****************************************
+Please select the company name from below: -
+
+1.Microsoft 
+2.Tesla 
+3.Apple
+
+The data for the fiscal year 2023, 2022, and 2021 is currently available
+
+Please enter your query : 
+The Year By Year Average Liabilities Growth Rate(%) from 2021 to 2023 for Apple is 0.3556(%)
+----------------------------------------------------------------------------
+
+******************************  Hello! Welcome to AI Driven Financial Chatbot!!! *************************************
+
+******************************  I can help you with your financial queries  ****************************************
+Please select the company name from below: -
+
+1.Microsoft 
+2.Tesla 
+3.Apple
+
+The data for the fiscal year 2023, 2022, and 2021 is currently available
+
+Please enter your query : 
+The Year By Year Average Cash Flow from Operations Growth Rate(%) from 2021 to 2023 for Microsoft is 4.7966(%)
+----------------------------------------------------------------------------
+
+******************************  Hello! Welcome to AI Driven Financial Chatbot!!! *************************************
+
+******************************  I can help you with your financial queries  ****************************************
+Please select the company name from below: -
+
+1.Microsoft 
+2.Tesla 
+3.Apple
+Invalid Company Name. Please check and enter correct company name.
+----------------------------------------------------------------------------
+
+LIMITATION :-
+
+Error Messages: The error messages are somewhat generic. More specific error handling could improve user experience, such as distinguishing between different types of data availability issues.
+User Input Validation: While the chatbot validates company names and fiscal years, it could be improved to handle more variations and provide more informative feedback.
+User Input Validation: While the chatbot validates company names and fiscal years, it could be improved to handle more variations and provide more informative feedback.
+Limited Query Types: The chatbot only handles a specific set of predefined queries. Any query outside this set will result in a generic error message.
